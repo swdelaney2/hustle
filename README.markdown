@@ -34,7 +34,7 @@ Two different design:
 - Google Analytics built in (need to replace it with your own API key)
 - SEO (check `_config.yml`)
 - Customized 404 Page Not Found Page
-- Designed to be futureproof as you can create a subpages for each year (eg. your-link.github.io/2015, your-link.github.io/2016, etc)
+- Designed to be futureproof as you can create a subpages for each year (eg. your-link.github.io/2015, your-link.github.io/2017, etc)
 - Header with your icon logo defined, but removed from source. 
 - Website logo in SVG defined, but removed from source.
 - Display PDF from Google Drive
@@ -48,11 +48,11 @@ Two different design:
 6. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/). 
 
 ## How To Use
-- The main stylesheet is stored `/css/2016_style`.
-- In `/css/2016_style/img` you will find where the pictures in `/2016` are stored at. You will find the images of all related posts in `/css/2017_style/img`. This setup is to ensure that we are easily to move from year to year by creating new folders.
-- `_2016_pages` and `_2017_pages` are the folders that store subpages.
-- `_2016_data` and `_2017_data` are the folders that store each sections in home page. Those sections are can be removed by removing the `include` code in `_layout/2016_home.html` or `_layout/2017_home.html`.
-- `_2016_speakers` and `_2017_speakers` contain speakers' profile. They're written in markdown style. 
+- The main stylesheet is stored `/css/2017_style`.
+- In `/css/2017_style/img` you will find where the pictures in `/2017` are stored at. You will find the images of all related posts in `/css/2017_style/img`. This setup is to ensure that we are easily to move from year to year by creating new folders.
+- `_2017_pages` and `_2017_pages` are the folders that store subpages.
+- `_2017_data` and `_2017_data` are the folders that store each sections in home page. Those sections are can be removed by removing the `include` code in `_layout/2017_home.html` or `_layout/2017_home.html`.
+- `_2017_bridge` and `_2017_bridge` contain bridge' profile. They're written in markdown style. 
 - `_2017_teams` contains each team member's profile. They're written in markdown style. 
 - In order to view PDF correctly, sharing setting in Google Drive must set to "Public on the web".
 
