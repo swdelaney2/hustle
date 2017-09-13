@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   9 am & 10 am
   Blackwell Forest Preserve - Mt. Hoy
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "swdelaney2.github.io/hustle" # the base hostname & protocol for your site
+url: "swdelaney2.github.io/hustle/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
