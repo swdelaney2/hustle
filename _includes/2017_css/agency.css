@@ -96,8 +96,8 @@ h4 {
 }
 
 aside.clients {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    /*padding-top: 50px;*/
+    /*padding-bottom: 50px;*/
 }
 
 aside.clients,
@@ -399,7 +399,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside.clients h2,
@@ -418,11 +418,6 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}
 
 .service-heading {
     margin: 15px 0;
@@ -928,5 +923,5 @@ body {
 
 .bridge-image {
   margin: 0 auto;
-  margin-top: -50px;
+  margin-top: -25px;
 }
