@@ -371,6 +371,10 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+  .bridge-image {
+    float: right;
+  }
+
     header .intro-text {
         padding-top: 200px;
         padding-bottom: 200px;
@@ -922,6 +926,7 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-.float-right {
-  float: right;
+.bridge-image {
+  margin: 0 auto;
+  margin-top: -50px;
 }
