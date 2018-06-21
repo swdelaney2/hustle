@@ -1,3 +1,24 @@
 ---
 layout: 2017_style
 ---
+
+#gallery_table_large {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  #gallery_table_large {
+    display: block;
+  }
+
+  #gallery_table_small {
+    display: none;
+  }
+}
+
+.gallery_table, .gallery_table th, .gallery_table td {
+    padding: 5px;
+}
+.gallery_table {
+    border-spacing: 15px;
+}
