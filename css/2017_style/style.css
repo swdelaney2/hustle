@@ -22,3 +22,9 @@ layout: 2017_style
 .gallery_table {
     border-spacing: 15px;
 }
+
+#youtube {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
