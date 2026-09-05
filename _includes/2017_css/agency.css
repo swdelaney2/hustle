@@ -95,6 +95,13 @@ h4 {
     margin: 0 auto;
 }
 
+.flexcenterimg {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Horizontally centers the image */
+  height: 300px;
+}
+
 aside.clients {
     /*padding-top: 50px;*/
     /*padding-bottom: 50px;*/
